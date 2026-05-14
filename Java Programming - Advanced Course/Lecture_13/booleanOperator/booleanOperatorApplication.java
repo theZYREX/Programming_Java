@@ -15,9 +15,9 @@ public class booleanOperatorApplication {
 
             List<Integer> outputNumbers = new ArrayList<Integer>();
 
-            String Fullpath = "/Users/ilaovsannikov/прог-е/JavaProg/src/input.txt";
+            String Fullpath = ...";
 
-            String PathOut = "/Users/ilaovsannikov/прог-е/JavaProg/src/output.txt";
+            String PathOut = "...";
 
             List<String> lines = Files.readAllLines(Paths.get(Fullpath));
 
