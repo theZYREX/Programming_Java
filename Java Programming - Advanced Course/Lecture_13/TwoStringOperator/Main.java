@@ -9,7 +9,7 @@ public class Main {
         TwoStringOperator findLongest = (s1, s2) -> s1.length() > s2.length() ? s1 : s2;
 
         try {
-            String fullpath = "/Users/ilaovsannikov/прог-е/JavaProg/src/text.txt";
+            String fullpath = "...";
 
             List<String> allLines = Files.readAllLines(Paths.get(fullpath));
 
