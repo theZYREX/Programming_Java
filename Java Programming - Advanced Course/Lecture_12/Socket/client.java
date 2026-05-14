@@ -12,7 +12,7 @@ public class client {
         try (Socket socket = new Socket(hostname, port);
              PrintWriter out = new PrintWriter(socket.getOutputStream(), true)) {
 
-            String fullPath = "/Users/ilaovsannikov/прог-е/JavaProg/src/text.txt";
+            String fullPath = "...";
             String fileContent = Files.readString(Path.of(fullPath));
 
             String englishOnly = fileContent.replaceAll("[^a-zA-Z\\s]", "");
