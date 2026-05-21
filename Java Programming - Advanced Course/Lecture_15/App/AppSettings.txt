@@ -1,0 +1,4 @@
+feature1Enabled=true
+fileName=data.csv
+language=ru
+feature2Enabled=true
